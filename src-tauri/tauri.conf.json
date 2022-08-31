@@ -1,7 +1,7 @@
 {
   "build": {
-    "beforeDevCommand": "",
-    "beforeBuildCommand": "",
+    "beforeDevCommand": "cd logseq && yarn && yarn watch",
+    "beforeBuildCommand": "cd logseq && echo TODO",
     "devPath": "http://localhost:3001",
     "distDir": "../logseq/public",
     "withGlobalTauri": true
